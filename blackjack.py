@@ -16,7 +16,7 @@ def get_ace_values(num_aces):
     for i in range(len(temp_list)):
         sum_array[0, i] = 1
         sum_array[1, i] = 11
-		return [int(s) for s in np.sum(sum_array, axis=1)]
+    return [int(s) for s in np.sum(sum_array, axis=1)]
 
 # Make a deck
 def make_decks(num_decks, card_types):
@@ -89,7 +89,7 @@ def play_game(dealer_card, player_card, blackjack, player_card_results, cards_ho
             else:
                 player_card_results[0,player] = -1
                 
-				return player_card_results, cards_home, action
+    return player_card_results, cards_home, action
 
 stacks = 5000
 players = 1
