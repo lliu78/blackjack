@@ -25,6 +25,7 @@ def make_decks(deck_num, deck_cards):
   deck_num: int, the numbers of decks included in game
   deck_cards: list, cards points included in each deck
   return: list, a shuffled stack of cards with deck_num decks.
+  reference: https://github.com/yiuhyuk/blackjack
   '''
   shuffled_deck = []
   for i in range(deck_num):
@@ -61,6 +62,7 @@ def total_up(hand):
 
 
 # Experimental results:: Le Liu
+# reference: https://github.com/yiuhyuk/blackjack
 for i in range(5):
     stacks = 5000
     players_num = 1
@@ -252,6 +254,7 @@ for i in range(5):
 
 
 # Experimental results:: Yunxia Zhao
+# reference: https://github.com/yiuhyuk/blackjack
 for i in range(5):
     stacks = 5000
     players_num = 1
