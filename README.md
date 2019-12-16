@@ -30,3 +30,4 @@ Model from Le Liu:
   5 layers NN
   loss='binary_crossentropy', optimizer='adam'
   
+#reference: https://github.com/yiuhyuk/blackjack
